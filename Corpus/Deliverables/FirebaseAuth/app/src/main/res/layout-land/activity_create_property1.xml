@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@color/material_blue_600">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".CreatePropertyActivity1">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/customer_name"
+            android:textColor="?attr/colorAccent"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cust_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/textview"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/property_addr"
+            android:textColor="?attr/colorAccent"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/prop_no"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread_inside" />
+
+        <EditText
+            android:id="@+id/prop_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="235dp"
+            android:ems="10"
+            android:hint="@string/house_number"
+            android:importantForAutofill="no"
+            android:inputType="textPostalAddress"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.598"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPostalAddress"
+            android:labelFor="@+id/address"
+            android:minLines="2"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/prop_no" />
+
+        <TextView
+            android:id="@+id/property_type_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/property_type"
+            android:textColor="?attr/colorAccent"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/prop_type_spin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/prop_no" />
+
+        <Spinner
+            android:id="@+id/prop_type_spin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="?attr/colorAccent"
+            android:entries="@array/property_type_dropdown_array"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toTopOf="@+id/receptions_e"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/property_type_e" />
+
+        <TextView
+            android:id="@+id/receptions_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="300dp"
+            android:text="@string/receptions"
+            android:textColor="?attr/colorAccent"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/no_receps_spin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/prop_type_spin" />
+
+        <Spinner
+            android:id="@+id/no_receps_spin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="?attr/colorAccent"
+            android:entries="@array/no_receptions_dropdown_array"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toTopOf="@+id/bathrooms_e"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/receptions_e" />
+
+        <TextView
+            android:id="@+id/bathrooms_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="300dp"
+            android:text="@string/bathrooms"
+            android:textColor="?attr/colorAccent"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/no_baths_spin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/no_receps_spin" />
+
+        <Spinner
+            android:id="@+id/no_baths_spin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="?attr/colorAccent"
+            android:entries="@array/no_bathrooms_dropdown_array"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toTopOf="@+id/bedrooms_e"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bathrooms_e" />
+
+        <TextView
+            android:id="@+id/bedrooms_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="300dp"
+            android:backgroundTint="?attr/colorAccent"
+            android:text="@string/bedrooms"
+            android:textColor="?attr/colorAccent"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/no_beds_spin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/no_baths_spin" />
+
+        <Spinner
+            android:id="@+id/no_beds_spin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="?attr/colorAccent"
+            android:entries="@array/no_bedrooms_dropdown_array"
+            app:layout_constraintBottom_toTopOf="@+id/btn_next2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bedrooms_e" />
+
+
+        <TextView
+            android:id="@+id/addr_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="8dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text=" "
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/cardView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="269dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <fragment
+                android:id="@+id/autocomplete_fragment"
+                android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="357dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_next2"
+            android:layout_width="110dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/no_beds_spin"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.499"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.525" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

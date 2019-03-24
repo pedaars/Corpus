@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView_room"
+                android:layout_width="371dp"
+                android:layout_height="177dp"
+                android:contentDescription="@string/room_image"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/textview_room_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@id/imageView_room"
+                android:text="@string/living_room"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="?attr/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_room_name"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageView_room"
+                android:text="@string/length_12_x_6"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_width"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_length"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/imageView_room"
+                android:text="@string/width_10_x_8"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_desc"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_room"
+                android:layout_marginTop="20dp"
+                android:text="@string/with_a_large_window_looking_onto_the_vast_garden"
+                android:textAlignment="textStart"
+                android:textColor="?attr/colorAccent" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

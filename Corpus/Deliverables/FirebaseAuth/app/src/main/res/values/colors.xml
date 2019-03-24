@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF0000</color>
+
+    <color name="material_blue_600">#4472C4</color>
+    <color name="material_blue_500">#FF5722</color>
+    <color name="material_blue_700">#024292</color>
+    <color name="material_blue_a200">#4472C4</color>
+    <color name="material_yellow_a800">#4472C4</color>
+    <color name="material_yellow_50">#FFFFFF</color>
+    <color name="material_blues_a700">#4472C4</color>
+    <color name="material_blues_500">#4472C4</color>
+</resources>

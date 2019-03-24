@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">Property Manager</string>
+    <string name="google_user_profile_picture">Google User Profile Picture</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="textview1">textview1</string>
+    <string name="textview2">textview2</string>
+    <string name="home">Home</string>
+    <string name="first_name_surname"><![CDATA[First name & surname]]></string>
+    <string name="email">Email</string>
+    <string name="new_customer">New Customer</string>
+    <string name="title_text">Title Text</string>
+    <string name="account_details">Account Details</string>
+    <string name="add_new_property">Add New Property</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="alternative_phone_number">Alternative phone Number</string>
+    <string name="address">Address</string>
+    <string name="first_line_of_address">First Line of Address</string>
+    <string name="add_landlord">Add Landlord</string>
+    <string name="home_address">Home Address</string>
+    <string name="create_new_property">Create New Property</string>
+    <string name="lister_logo">lister logo</string>
+    <string name="add_property">Add Property</string>
+    <string name="number_of_bathrooms">Number of Bathrooms</string>
+    <string name="about">About</string>
+    <string name="feedback">Feedback</string>
+    <string name="faqs">FAQs</string>
+    <string name="save">Save</string>
+    <string name="house_number">House Number</string>
+    <string name="update_customer_details">Update Customer Details</string>
+    <string name="create_new_customer">Create New Customer</string>
+    <string name="update">Update</string>
+    <string name="town">Town</string>
+    <string name="street_name">Street Name</string>
+    <string name="postcode">Postcode</string>
+    <string name="aaron_pedwell">Aaron Pedwell</string>
+    <string name="_7_swanfield_road">7 Swanfield Road</string>
+    <string name="ct5_4hl">CT5 4HL</string>
+    <string name="whitstable">Whitstable</string>
+    <string name="pedaar_aol_com">pedaar@aol.com</string>
+    <string name="phone_number">phone_number</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="camera_view">camera view</string>
+    <string name="photo">Photo</string>
+    <string name="customers">Customers</string>
+    <string name="property_type">Property Type</string>
+    <string name="capture_property_image">Capture Property Image</string>
+    <string name="bedrooms">Bedrooms</string>
+    <string name="bathrooms">Bathrooms</string>
+    <string name="parking_spaces">Parking Spaces</string>
+    <string name="garden">Garden</string>
+    <string name="double_glazing">Double Glazing</string>
+    <string name="gas_central_heating">Gas Central Heating</string>
+    <string name="receptions">Receptions</string>
+    <string name="parking">Parking</string>
+    <string name="next">Next</string>
+    <string name="property_details">Step 2 - Property Details</string>
+    <string name="property_address">Step 1 - Property Address</string>
+    <string name="properties">Properties</string>
+    <string name="customers_properties">Customers Properties</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="property_image">property image</string>
+    <string name="prop_desc">3 bed detached house</string>
+    <string name="addr">Whitstable, CT5 4HL</string>
+    <string name="property_addr">Property Address</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="textview">TextView</string>
+    <string name="selection_required">Selection Required</string>
+    <string name="search_address">Search Address</string>
+    <string name="empty"> </string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="customers_name">Customers Name</string>
+    <string name="update_property_details">Update Property Details</string>
+    <string name="property_details_edit">Property Details</string>
+    <string name="custom">Custom</string>
+    <string name="room_name">Room Name</string>
+    <string name="room_length">Room Length</string>
+    <string name="feet">Feet</string>
+    <string name="add_room">Add Room</string>
+    <string name="inches">Inches</string>
+    <string name="room_details">Step 4 - Room Details</string>
+    <string name="x">X</string>
+    <string name="room_width">Room Width</string>
+    <string name="delete">Delete</string>
+    <string name="step_3">Step 3 - External Property Photo</string>
+    <string name="living_room">Living Room</string>
+    <string name="length_12_x_6">Length 12 x 6</string>
+    <string name="width_10_x_8">Width 10 x 8</string>
+    <string name="room_image">Room Image</string>
+    <string name="room_description_use_speech_to_text_input">Room Description use Speech to Text input</string>
+    <string name="with_a_large_window_looking_onto_the_vast_garden">With a large window looking onto the vast garden</string>
+    <string name="for_sale_rent">For Sale / Rent</string>
+    <string name="for_sale">For Sale</string>
+    <string name="for_rent">For Rent</string>
+    <string name="_275_000">£275,000</string>
+    <string name="sale_price">£ Sale Price</string>
+    <string name="customer_image">Customer Image</string>
+    />
+
+
+    <string-array name="property_type_dropdown_array">
+        <item>Choose a Property Type</item>
+        <item>Detached House</item>
+        <item>Semi Detached House</item>
+        <item>Terraced House</item>
+        <item>End Terraced House</item>
+        <item>Bungalow</item>
+        <item>Flat</item>
+        <item>Maisonette</item>
+        <item>Studio</item>
+    </string-array>
+
+    <string-array name="no_receptions_dropdown_array">
+        <item>Number of Reception Rooms</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="no_bedrooms_dropdown_array">
+        <item>Number of Bedrooms</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="no_bathrooms_dropdown_array">
+        <item>Number of Bathrooms</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="no_parking_dropdown_array">
+        <item>Number of Parking Spaces</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="room_name_array">
+        <item>Room Name</item>
+        <item>Hallway</item>
+        <item>Living Room</item>
+        <item>Dining Room</item>
+        <item>Kitchen</item>
+        <item>Cloak Room</item>
+        <item>Bedroom 1</item>
+        <item>Bedroom 2</item>
+        <item>Bedroom 3</item>
+        <item>Bedroom 4</item>
+        <item>Bedroom 5</item>
+        <item>Bedroom 6</item>
+        <item>Bedroom 7</item>
+        <item>Bedroom 8</item>
+        <item>Bedroom 9</item>
+        <item>Bedroom 10</item>
+        <item>Master Bedroom</item>
+        <item>Bathroom</item>
+        <item>On-suite Bathroom</item>
+    </string-array>
+
+</resources>

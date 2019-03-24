@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageViewProp"
+                android:layout_width="371dp"
+                android:layout_height="216dp"
+                android:contentDescription="@string/property_image"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/textview_cust_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_toEndOf="@id/imageViewProp"
+                android:text="@string/aaron_pedwell"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="?attr/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_price"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imageViewProp"
+                android:text="@string/prop_desc"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/colorAccent" />
+
+            <TextView
+                android:id="@+id/textview_house_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_desc"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imageViewProp"
+                android:text="@string/_7_swanfield_road"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_town"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_house_no"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/imageViewProp"
+                android:text="@string/whitstable"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_postcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_town"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/imageViewProp"
+                android:text="@string/ct5_4hl"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_cust_name"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="36dp"
+                android:layout_toEndOf="@+id/imageViewProp"
+                android:text="@string/_275_000"
+                android:textColor="?attr/colorAccent"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
